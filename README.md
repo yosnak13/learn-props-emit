@@ -22,3 +22,9 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+- 子コンポーネント内で、$emitでカスタムイベント(clickとかchange的な使われ方をするやつ)を作る
+- 第２引数に送信するデータを渡す
+- 親コンポーネント内で子コンポーネントを呼び出す時に、作成したカスタムイベントを付与する
+- $eventや引数で送信されたデータを受け取る
